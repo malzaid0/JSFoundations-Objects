@@ -119,7 +119,7 @@ function longestChannelName(channels) {
   // Your code here
   let l = channels[0]
   channels.forEach( c => {
-    if (c.name.length > l.name.length) l = c
+    if (c["name"]["length"] > l["name"]["length"]) l = c
   })
   return l
 }
